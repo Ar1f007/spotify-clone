@@ -1,4 +1,11 @@
+import '../Styles/MainContainer.css';
+import { Banner } from './';
+
 const MainContainer = () => {
-  return <div>MainContainer</div>;
+  return (
+    <div className="mainContainer">
+      <Banner />
+    </div>
+  );
 };
 export { MainContainer };

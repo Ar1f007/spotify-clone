@@ -1,4 +1,6 @@
+import '../Styles/RightMenu.css';
+
 const RightMenu = () => {
-  return <div>RightMenu</div>;
+  return <div className="rightMenu">RightMenu</div>;
 };
 export { RightMenu };
