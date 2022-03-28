@@ -2,7 +2,7 @@ import '../Styles/LeftMenu.css';
 import { FaSpotify, FaEllipsisH } from 'react-icons/fa';
 import { BiSearchAlt } from 'react-icons/bi';
 
-import { Menu, MenuList } from './';
+import { Menu, MenuList, MenuPlaylist } from './';
 
 const LeftMenu = () => {
   return (
@@ -24,6 +24,7 @@ const LeftMenu = () => {
       </div>
 
       <Menu title={'Menu'} menuItems={MenuList} />
+      <MenuPlaylist />
     </div>
   );
 };
