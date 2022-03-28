@@ -7,3 +7,6 @@ export { MenuPlaylist } from './MenuPlaylist';
 export { Playlist } from './Playlist';
 export { TrackList } from './TrackList';
 export { Banner } from './Banner';
+export { Songs } from './Songs';
+export { AudioList } from './AudioList';
+export { MusicPlayer } from './MusicPlayer';

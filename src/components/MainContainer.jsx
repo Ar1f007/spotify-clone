@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import '../Styles/MainContainer.css';
-import { Banner } from './';
+import { Banner, AudioList } from './';
 import { FaUsers } from 'react-icons/fa';
 
 const MainContainer = () => {
@@ -33,6 +33,7 @@ const MainContainer = () => {
           12.3M <span>Followers</span>
         </p>
       </div>
+      <AudioList />
     </div>
   );
 };
