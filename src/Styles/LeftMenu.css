@@ -6,7 +6,7 @@
   backdrop-filter: blur(10px);
   padding: 25px 30px;
   overflow: hidden;
-  transition: all 0.3 ease;
+  transition: all 0.3 cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .leftMenu .logoContainer {
@@ -280,4 +280,39 @@
   border-radius: 10px;
   z-index: 2;
   transition: all 250ms linear;
+}
+
+@media screen and (max-width: 550px) {
+  .leftMenu {
+    min-width: 64px;
+    width: 64px;
+  }
+
+  .leftMenu .searchBox {
+    display: none;
+  }
+
+  .leftMenu .trackList {
+    display: none;
+  }
+
+  .leftMenu .playlistContainer {
+    display: none;
+  }
+
+  .leftMenu .menuContainer ul li a span {
+    display: none;
+  }
+
+  .leftMenu .menuContainer ul li a i {
+    font-size: 24px;
+  }
+
+  .leftMenu .menuContainer ul li {
+    margin: 25px 0;
+  }
+
+  .leftMenu .logoContainer h2 {
+    margin-left: 100px;
+  }
 }
